@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <style rel="stylesheet" href="./style.css"></style>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Dr+Sugiyama&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="h1">Recipe Book</h1>
+    </header>
+    
+    <div id="recipe-form">
+        <h2 class="add">Add/Edit Recipe</h2>
+        <label for="recipeName">Recipe Name:</label>
+        <input type="text" id="recipeName">
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients"></textarea>
+        <label for="methods">Methods:</label>
+        <textarea id="methods"></textarea>
+        <div class="recipe-actions">
+          <button onclick="addOrUpdateRecipe()">Add/Edit Recipe</button>
+          <button onclick="clearForm()">Clear Form</button>
+        </div>
+    </div>
+    
+    <div id="recipe-list">
+        <h2>Recipe List</h2>
+        <div class="search-bar">
+            <label for="search">Search</label>
+            <input type="text" id="search" oninput="searchRecipe()">
+        </div>
+    </div>
+    <div id="recipes"></div>
+    <script src="script.js"></script>
+</body>
+</html>

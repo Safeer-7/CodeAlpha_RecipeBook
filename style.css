@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arsenal', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5D4FF;
+    
+  } 
+
+  header { 
+      font-family: 'Arsenal', sans-serif;
+      color: #1a0303;
+      text-align: center;
+      padding: 1em;
+      font-weight: 700px;
+  }
+
+  .add{
+    text-align: center;
+  }
+
+  #recipe-form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #F1EAFF;
+    padding: 20px;
+    border: 3px solid #D0A2F7;
+    color: #22092C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #recipe-list {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #F1EAFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 3px solid #D0A2F7;
+  }
+
+  .recipe-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: #D0A2F7;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+  }
+
+  button:hover {
+    background-color: #99A98F;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .recipe-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recipe-actions {
+    margin-top: 10px;
+  }
+
+  .search-bar {
+    margin-bottom: 10px;
+  }
+
+
+ 
+    
